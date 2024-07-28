@@ -1,1 +1,11 @@
-# Exc4
+import random
+I = round (random.uniform (30.0,50.0),2)
+II = round (random.uniform (30.0,50.0),2)
+III = round (random.uniform (30.0,50.0),2)
+IV = round (random.uniform (30.0,50.0),2)
+V = round (random.uniform (30.0,50.0),2)
+TotalValue = round ((I+II+III+IV+V),2)
+AverageValue = round ((TotalValue/5),2)
+print ("Value random :",(f"{I} , {II} , {III} , {IV} , {V}"))
+print ("Total value : ",TotalValue)
+print ("Average value : ",AverageValue)
